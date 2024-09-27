@@ -1,0 +1,1001 @@
+reported_y,division,crime_type,crime_towards,cleared
+2015,D14,Theft,Crimes Against Property,1
+2020,D43,Fraud,Crimes Against Property,0
+2017,D55,Theft,Crimes Against Property,1
+2019,D13,Assault,Crimes Against Property,0
+2018,D41,Other,Crimes Against the Person,1
+2015,D23,Attempt Murder,Crimes Against the Person,0
+2017,D51,Attempt Murder,Crimes Against the Person,0
+2015,D33,Theft,Crimes Against the Person,0
+2015,D14,Fraud,Crimes Against Property,0
+2023,D33,Assault,Crimes Against the Person,1
+2024,D23,SEXUAL Violation,Crimes Against Property,0
+2016,D14,Attempt Murder,Crimes Against the Person,1
+2016,D52,Robbery,Crimes Against the Person,1
+2023,D33,Fraud,Crimes Against the Person,1
+2016,D42,SEXUAL Violation,Crimes Against Property,0
+2019,D55,SEXUAL Violation,Crimes Against Property,1
+2017,D51,Assault,Crimes Against Property,1
+2022,D31,Other,Crimes Against Property,0
+2022,D12,Other,Crimes Against Property,0
+2016,D14,Assault,Crimes Against the Person,1
+2017,D51,Theft,Crimes Against the Person,0
+2020,D11,Break & Enter,Crimes Against the Person,0
+2023,D33,Fraud,Crimes Against the Person,1
+2024,D42,Assault,Crimes Against Property,1
+2024,D53,Assault,Crimes Against the Person,1
+2022,D11,Fraud,Crimes Against Property,0
+2023,D12,Fraud,Crimes Against the Person,0
+2021,D31,Attempt Murder,Crimes Against the Person,1
+2023,D51,Attempt Murder,Crimes Against Property,0
+2023,D11,Theft,Crimes Against the Person,1
+2019,D55,Fraud,Crimes Against Property,0
+2014,D33,Fraud,Crimes Against the Person,1
+2014,D23,Fraud,Crimes Against Property,0
+2024,D33,Assault,Crimes Against Property,0
+2020,D23,Other,Crimes Against Property,0
+2019,D41,SEXUAL Violation,Crimes Against the Person,0
+2023,D23,Other,Crimes Against Property,1
+2020,D23,Robbery,Crimes Against Property,0
+2016,D52,Robbery,Crimes Against Property,1
+2019,D41,Fraud,Crimes Against the Person,0
+2021,D13,Other,Crimes Against Property,0
+2021,D13,Attempt Murder,Crimes Against Property,1
+2018,D12,Fraud,Crimes Against the Person,1
+2015,D11,Attempt Murder,Crimes Against the Person,1
+2024,D11,Fraud,Crimes Against Property,1
+2018,D53,SEXUAL Violation,Crimes Against Property,0
+2020,D52,Attempt Murder,Crimes Against the Person,0
+2017,D12,Assault,Crimes Against Property,0
+2023,D32,SEXUAL Violation,Crimes Against Property,1
+2023,D31,Attempt Murder,Crimes Against the Person,1
+2019,D22,Fraud,Crimes Against Property,0
+2020,D13,Fraud,Crimes Against the Person,0
+2019,D12,Attempt Murder,Crimes Against Property,1
+2022,D13,Attempt Murder,Crimes Against the Person,0
+2019,D51,Robbery,Crimes Against Property,0
+2023,D53,SEXUAL Violation,Crimes Against the Person,1
+2014,D14,Fraud,Crimes Against the Person,0
+2014,D12,Attempt Murder,Crimes Against Property,0
+2016,D55,Attempt Murder,Crimes Against the Person,0
+2021,D32,Fraud,Crimes Against Property,1
+2021,D14,Other,Crimes Against the Person,1
+2014,D42,Assault,Crimes Against the Person,0
+2024,D51,SEXUAL Violation,Crimes Against Property,1
+2022,D42,Theft,Crimes Against Property,0
+2020,D23,Fraud,Crimes Against Property,1
+2021,D53,Fraud,Crimes Against the Person,1
+2020,D14,Break & Enter,Crimes Against the Person,0
+2014,D41,Robbery,Crimes Against Property,1
+2017,D12,Attempt Murder,Crimes Against Property,0
+2024,D31,Theft,Crimes Against the Person,1
+2017,D52,Robbery,Crimes Against the Person,0
+2022,D52,Theft,Crimes Against the Person,1
+2016,D43,Fraud,Crimes Against the Person,0
+2019,D13,SEXUAL Violation,Crimes Against Property,0
+2024,D11,Theft,Crimes Against Property,1
+2021,D53,Break & Enter,Crimes Against the Person,0
+2022,D14,Assault,Crimes Against the Person,0
+2015,D51,Theft,Crimes Against Property,1
+2020,D43,Fraud,Crimes Against the Person,1
+2016,D11,Assault,Crimes Against the Person,1
+2024,D52,Break & Enter,Crimes Against Property,0
+2022,D23,Robbery,Crimes Against Property,0
+2014,D41,Theft,Crimes Against Property,1
+2020,D51,Other,Crimes Against Property,0
+2016,D55,Assault,Crimes Against Property,1
+2024,D42,SEXUAL Violation,Crimes Against the Person,0
+2014,D22,Fraud,Crimes Against the Person,1
+2021,D22,Attempt Murder,Crimes Against Property,1
+2017,D32,Theft,Crimes Against the Person,1
+2014,D23,Break & Enter,Crimes Against Property,0
+2022,D33,Theft,Crimes Against the Person,0
+2015,D13,Fraud,Crimes Against the Person,0
+2020,D14,Other,Crimes Against the Person,0
+2015,D51,Fraud,Crimes Against Property,1
+2019,D42,Theft,Crimes Against Property,1
+2014,D31,Fraud,Crimes Against Property,0
+2022,D13,SEXUAL Violation,Crimes Against the Person,0
+2018,D41,Theft,Crimes Against Property,1
+2024,D32,Robbery,Crimes Against the Person,0
+2016,D55,Other,Crimes Against Property,1
+2019,D42,Assault,Crimes Against the Person,1
+2016,D33,SEXUAL Violation,Crimes Against the Person,1
+2014,D14,Assault,Crimes Against Property,1
+2022,D11,Robbery,Crimes Against Property,0
+2023,D12,Attempt Murder,Crimes Against Property,1
+2023,D12,Theft,Crimes Against Property,1
+2016,D43,Fraud,Crimes Against the Person,1
+2016,D32,Attempt Murder,Crimes Against Property,1
+2015,D31,Break & Enter,Crimes Against the Person,1
+2016,D12,SEXUAL Violation,Crimes Against the Person,1
+2014,D52,Fraud,Crimes Against the Person,1
+2015,D52,SEXUAL Violation,Crimes Against Property,1
+2022,D31,Attempt Murder,Crimes Against the Person,1
+2022,D43,Attempt Murder,Crimes Against the Person,0
+2016,D22,SEXUAL Violation,Crimes Against the Person,0
+2022,D33,Other,Crimes Against Property,1
+2022,D53,Assault,Crimes Against Property,0
+2020,D51,Fraud,Crimes Against the Person,1
+2018,D53,Other,Crimes Against Property,1
+2022,D32,SEXUAL Violation,Crimes Against the Person,1
+2023,D55,Break & Enter,Crimes Against the Person,0
+2018,D13,Fraud,Crimes Against Property,0
+2024,D32,Break & Enter,Crimes Against the Person,0
+2022,D22,Break & Enter,Crimes Against the Person,1
+2021,D12,Theft,Crimes Against Property,0
+2023,D33,Fraud,Crimes Against the Person,0
+2015,D22,Attempt Murder,Crimes Against the Person,1
+2015,D41,Robbery,Crimes Against the Person,0
+2024,D32,Fraud,Crimes Against the Person,0
+2019,D41,Other,Crimes Against the Person,1
+2016,D53,SEXUAL Violation,Crimes Against the Person,1
+2024,D23,Break & Enter,Crimes Against Property,0
+2023,D32,Break & Enter,Crimes Against the Person,1
+2022,D14,Attempt Murder,Crimes Against Property,1
+2022,D11,Other,Crimes Against the Person,1
+2016,D31,Robbery,Crimes Against the Person,1
+2024,D13,Theft,Crimes Against Property,1
+2024,D22,Attempt Murder,Crimes Against the Person,1
+2017,D52,Robbery,Crimes Against Property,1
+2017,D52,SEXUAL Violation,Crimes Against the Person,1
+2020,D33,SEXUAL Violation,Crimes Against Property,1
+2015,D52,Theft,Crimes Against the Person,1
+2016,D51,Assault,Crimes Against the Person,0
+2019,D33,Theft,Crimes Against the Person,1
+2015,D43,Robbery,Crimes Against Property,1
+2023,D14,Fraud,Crimes Against the Person,0
+2015,D14,SEXUAL Violation,Crimes Against the Person,0
+2016,D53,SEXUAL Violation,Crimes Against the Person,1
+2021,D55,Attempt Murder,Crimes Against the Person,0
+2023,D52,SEXUAL Violation,Crimes Against the Person,1
+2015,D31,Fraud,Crimes Against the Person,0
+2014,D13,Other,Crimes Against Property,0
+2016,D22,Break & Enter,Crimes Against Property,1
+2016,D33,Robbery,Crimes Against the Person,1
+2015,D51,Other,Crimes Against the Person,1
+2014,D32,Fraud,Crimes Against the Person,0
+2020,D14,Theft,Crimes Against the Person,1
+2023,D51,SEXUAL Violation,Crimes Against the Person,0
+2022,D52,Theft,Crimes Against the Person,0
+2015,D22,SEXUAL Violation,Crimes Against Property,1
+2015,D14,Other,Crimes Against Property,0
+2014,D52,Other,Crimes Against Property,1
+2022,D23,Theft,Crimes Against the Person,0
+2024,D52,SEXUAL Violation,Crimes Against Property,0
+2023,D32,Break & Enter,Crimes Against the Person,0
+2016,D53,Theft,Crimes Against Property,0
+2015,D11,Assault,Crimes Against Property,1
+2023,D23,Break & Enter,Crimes Against Property,0
+2018,D11,Fraud,Crimes Against the Person,0
+2016,D32,SEXUAL Violation,Crimes Against the Person,1
+2015,D53,Theft,Crimes Against the Person,1
+2022,D52,Assault,Crimes Against Property,0
+2014,D12,Break & Enter,Crimes Against Property,0
+2014,D31,SEXUAL Violation,Crimes Against the Person,0
+2022,D52,Robbery,Crimes Against Property,0
+2021,D51,SEXUAL Violation,Crimes Against the Person,0
+2014,D52,Robbery,Crimes Against Property,0
+2020,D32,Assault,Crimes Against Property,0
+2020,D22,Fraud,Crimes Against Property,0
+2019,D23,Theft,Crimes Against the Person,1
+2020,D12,Assault,Crimes Against Property,0
+2018,D31,Assault,Crimes Against the Person,0
+2015,D52,SEXUAL Violation,Crimes Against the Person,1
+2018,D55,Other,Crimes Against Property,0
+2016,D32,Robbery,Crimes Against Property,1
+2023,D12,Attempt Murder,Crimes Against the Person,0
+2024,D13,SEXUAL Violation,Crimes Against Property,1
+2022,D32,Other,Crimes Against Property,1
+2019,D41,Assault,Crimes Against Property,0
+2015,D12,Assault,Crimes Against the Person,1
+2014,D14,Attempt Murder,Crimes Against the Person,1
+2023,D13,Theft,Crimes Against Property,1
+2021,D23,Break & Enter,Crimes Against Property,0
+2020,D41,SEXUAL Violation,Crimes Against Property,0
+2015,D12,Theft,Crimes Against the Person,1
+2017,D12,Theft,Crimes Against Property,1
+2020,D22,Break & Enter,Crimes Against Property,0
+2023,D43,Theft,Crimes Against Property,0
+2023,D43,Other,Crimes Against the Person,1
+2024,D43,Break & Enter,Crimes Against the Person,0
+2022,D22,Fraud,Crimes Against the Person,0
+2021,D41,Robbery,Crimes Against Property,1
+2023,D14,Robbery,Crimes Against the Person,1
+2014,D41,Assault,Crimes Against Property,0
+2024,D12,Theft,Crimes Against the Person,0
+2023,D51,Robbery,Crimes Against Property,1
+2021,D31,Theft,Crimes Against the Person,0
+2014,D23,Assault,Crimes Against Property,1
+2020,D32,Attempt Murder,Crimes Against Property,1
+2015,D51,Theft,Crimes Against Property,1
+2022,D33,Other,Crimes Against the Person,0
+2018,D31,Theft,Crimes Against the Person,0
+2022,D22,Attempt Murder,Crimes Against the Person,0
+2014,D14,Attempt Murder,Crimes Against the Person,0
+2015,D31,Fraud,Crimes Against the Person,0
+2015,D11,Assault,Crimes Against the Person,1
+2016,D52,Fraud,Crimes Against Property,1
+2018,D12,Other,Crimes Against Property,0
+2024,D41,SEXUAL Violation,Crimes Against Property,1
+2020,D42,Break & Enter,Crimes Against Property,1
+2024,D55,Theft,Crimes Against the Person,1
+2017,D31,Robbery,Crimes Against the Person,1
+2014,D11,SEXUAL Violation,Crimes Against the Person,0
+2021,D52,Theft,Crimes Against the Person,1
+2021,D13,Assault,Crimes Against Property,0
+2019,D12,Robbery,Crimes Against the Person,0
+2023,D55,Other,Crimes Against the Person,0
+2024,D55,Fraud,Crimes Against Property,1
+2020,D13,SEXUAL Violation,Crimes Against the Person,0
+2020,D32,Theft,Crimes Against Property,1
+2016,D41,Break & Enter,Crimes Against the Person,1
+2015,D51,Fraud,Crimes Against the Person,1
+2022,D12,Assault,Crimes Against the Person,0
+2021,D12,Theft,Crimes Against Property,1
+2022,D53,Theft,Crimes Against the Person,1
+2014,D22,Other,Crimes Against the Person,0
+2015,D41,Other,Crimes Against Property,0
+2019,D42,Theft,Crimes Against the Person,0
+2019,D13,Assault,Crimes Against Property,0
+2019,D33,Other,Crimes Against Property,0
+2014,D31,Assault,Crimes Against the Person,0
+2018,D32,Attempt Murder,Crimes Against the Person,0
+2021,D33,Other,Crimes Against Property,0
+2023,D43,SEXUAL Violation,Crimes Against the Person,0
+2023,D43,Attempt Murder,Crimes Against Property,1
+2017,D33,Theft,Crimes Against the Person,1
+2014,D23,Break & Enter,Crimes Against Property,1
+2021,D51,Break & Enter,Crimes Against Property,0
+2015,D23,Fraud,Crimes Against the Person,0
+2014,D42,SEXUAL Violation,Crimes Against Property,1
+2019,D13,Break & Enter,Crimes Against the Person,0
+2015,D33,SEXUAL Violation,Crimes Against the Person,0
+2019,D11,Assault,Crimes Against Property,1
+2016,D53,Assault,Crimes Against the Person,1
+2014,D14,Theft,Crimes Against the Person,0
+2023,D22,SEXUAL Violation,Crimes Against Property,1
+2016,D23,Break & Enter,Crimes Against the Person,0
+2019,D23,Attempt Murder,Crimes Against Property,1
+2022,D32,Theft,Crimes Against Property,1
+2015,D33,Other,Crimes Against the Person,0
+2019,D42,Theft,Crimes Against the Person,0
+2014,D42,SEXUAL Violation,Crimes Against the Person,0
+2014,D51,Robbery,Crimes Against Property,1
+2015,D51,Theft,Crimes Against the Person,1
+2020,D11,Attempt Murder,Crimes Against the Person,1
+2017,D22,Fraud,Crimes Against Property,0
+2020,D32,Attempt Murder,Crimes Against Property,0
+2023,D32,Assault,Crimes Against the Person,1
+2017,D53,Theft,Crimes Against the Person,1
+2015,D52,Robbery,Crimes Against Property,1
+2023,D52,Robbery,Crimes Against the Person,0
+2017,D23,Fraud,Crimes Against Property,1
+2019,D52,SEXUAL Violation,Crimes Against Property,0
+2016,D32,SEXUAL Violation,Crimes Against Property,0
+2023,D13,Other,Crimes Against the Person,0
+2022,D42,Robbery,Crimes Against Property,1
+2015,D53,Attempt Murder,Crimes Against the Person,1
+2017,D52,Break & Enter,Crimes Against Property,0
+2022,D43,Theft,Crimes Against the Person,1
+2016,D13,Attempt Murder,Crimes Against Property,0
+2019,D13,Fraud,Crimes Against the Person,1
+2021,D33,Break & Enter,Crimes Against Property,0
+2023,D42,Theft,Crimes Against the Person,1
+2023,D23,Break & Enter,Crimes Against the Person,0
+2018,D23,SEXUAL Violation,Crimes Against Property,1
+2021,D33,SEXUAL Violation,Crimes Against Property,0
+2020,D55,Attempt Murder,Crimes Against the Person,1
+2018,D14,Other,Crimes Against Property,0
+2022,D32,Robbery,Crimes Against Property,0
+2019,D42,Other,Crimes Against the Person,0
+2024,D53,SEXUAL Violation,Crimes Against the Person,0
+2023,D55,Fraud,Crimes Against the Person,0
+2021,D43,Fraud,Crimes Against the Person,1
+2021,D22,SEXUAL Violation,Crimes Against Property,1
+2016,D52,Assault,Crimes Against the Person,1
+2014,D14,Robbery,Crimes Against the Person,1
+2017,D51,Other,Crimes Against the Person,0
+2019,D23,Other,Crimes Against the Person,1
+2017,D31,SEXUAL Violation,Crimes Against Property,0
+2018,D43,Break & Enter,Crimes Against Property,1
+2018,D14,Robbery,Crimes Against Property,0
+2015,D53,Robbery,Crimes Against Property,0
+2023,D11,Assault,Crimes Against Property,0
+2014,D55,Break & Enter,Crimes Against Property,0
+2018,D11,Assault,Crimes Against the Person,0
+2014,D51,Break & Enter,Crimes Against the Person,0
+2019,D33,Theft,Crimes Against Property,1
+2023,D41,Robbery,Crimes Against the Person,1
+2023,D14,SEXUAL Violation,Crimes Against the Person,0
+2016,D32,SEXUAL Violation,Crimes Against the Person,1
+2020,D55,Robbery,Crimes Against Property,1
+2017,D11,Break & Enter,Crimes Against the Person,0
+2017,D53,Fraud,Crimes Against Property,1
+2024,D12,Robbery,Crimes Against the Person,0
+2016,D14,Break & Enter,Crimes Against Property,0
+2021,D42,Assault,Crimes Against Property,0
+2021,D11,Other,Crimes Against Property,1
+2021,D33,Fraud,Crimes Against Property,0
+2018,D55,Robbery,Crimes Against Property,0
+2015,D14,Theft,Crimes Against the Person,1
+2023,D33,Theft,Crimes Against the Person,1
+2017,D33,Theft,Crimes Against the Person,0
+2014,D11,Break & Enter,Crimes Against Property,0
+2021,D12,Theft,Crimes Against Property,1
+2014,D22,Other,Crimes Against the Person,1
+2023,D51,SEXUAL Violation,Crimes Against Property,1
+2019,D11,Other,Crimes Against the Person,0
+2019,D32,Assault,Crimes Against Property,0
+2020,D43,Attempt Murder,Crimes Against Property,1
+2017,D53,SEXUAL Violation,Crimes Against Property,0
+2023,D55,Assault,Crimes Against the Person,0
+2018,D13,Other,Crimes Against the Person,1
+2020,D43,Fraud,Crimes Against the Person,1
+2016,D32,Fraud,Crimes Against Property,1
+2022,D33,Attempt Murder,Crimes Against Property,1
+2015,D43,Robbery,Crimes Against Property,1
+2023,D53,Other,Crimes Against the Person,1
+2020,D52,Attempt Murder,Crimes Against Property,1
+2018,D13,Assault,Crimes Against the Person,0
+2016,D51,Break & Enter,Crimes Against Property,0
+2016,D32,Assault,Crimes Against the Person,0
+2023,D23,Break & Enter,Crimes Against Property,0
+2023,D53,Other,Crimes Against Property,0
+2018,D22,Robbery,Crimes Against Property,0
+2015,D43,Other,Crimes Against Property,0
+2019,D51,Attempt Murder,Crimes Against the Person,1
+2024,D55,Theft,Crimes Against the Person,0
+2020,D55,Attempt Murder,Crimes Against the Person,1
+2016,D23,Attempt Murder,Crimes Against the Person,1
+2016,D11,Robbery,Crimes Against Property,0
+2018,D32,Attempt Murder,Crimes Against the Person,0
+2015,D55,Assault,Crimes Against the Person,1
+2018,D43,Robbery,Crimes Against Property,1
+2019,D41,Assault,Crimes Against the Person,0
+2017,D43,Fraud,Crimes Against the Person,0
+2015,D32,Fraud,Crimes Against the Person,0
+2023,D14,Other,Crimes Against Property,1
+2017,D31,Break & Enter,Crimes Against the Person,0
+2023,D23,Fraud,Crimes Against the Person,0
+2022,D14,Break & Enter,Crimes Against Property,0
+2020,D14,Robbery,Crimes Against Property,1
+2020,D53,SEXUAL Violation,Crimes Against the Person,0
+2015,D13,SEXUAL Violation,Crimes Against Property,1
+2019,D33,Attempt Murder,Crimes Against Property,0
+2023,D22,SEXUAL Violation,Crimes Against Property,0
+2017,D14,Break & Enter,Crimes Against Property,0
+2021,D53,Robbery,Crimes Against Property,1
+2019,D52,Theft,Crimes Against the Person,0
+2021,D52,Assault,Crimes Against Property,1
+2017,D51,SEXUAL Violation,Crimes Against the Person,0
+2016,D13,Assault,Crimes Against Property,1
+2022,D52,Assault,Crimes Against Property,1
+2015,D12,Robbery,Crimes Against Property,0
+2020,D51,Assault,Crimes Against Property,0
+2014,D53,Fraud,Crimes Against Property,0
+2016,D55,Break & Enter,Crimes Against the Person,1
+2022,D33,Assault,Crimes Against the Person,1
+2022,D14,Theft,Crimes Against Property,1
+2015,D14,Other,Crimes Against Property,0
+2018,D12,Other,Crimes Against Property,1
+2015,D13,SEXUAL Violation,Crimes Against Property,0
+2016,D11,Break & Enter,Crimes Against Property,1
+2024,D11,Assault,Crimes Against the Person,1
+2015,D22,Theft,Crimes Against Property,1
+2016,D14,SEXUAL Violation,Crimes Against the Person,1
+2019,D33,Other,Crimes Against Property,1
+2015,D42,Break & Enter,Crimes Against the Person,0
+2019,D55,Other,Crimes Against Property,0
+2020,D51,Other,Crimes Against the Person,1
+2024,D55,Break & Enter,Crimes Against the Person,1
+2018,D42,Robbery,Crimes Against Property,1
+2019,D13,SEXUAL Violation,Crimes Against Property,0
+2019,D31,Break & Enter,Crimes Against the Person,1
+2024,D14,SEXUAL Violation,Crimes Against the Person,1
+2014,D42,Assault,Crimes Against the Person,0
+2020,D55,Assault,Crimes Against Property,1
+2015,D11,Theft,Crimes Against Property,1
+2019,D32,Assault,Crimes Against Property,1
+2015,D42,Theft,Crimes Against the Person,1
+2018,D22,Robbery,Crimes Against Property,1
+2020,D22,SEXUAL Violation,Crimes Against Property,0
+2015,D22,Assault,Crimes Against the Person,1
+2018,D23,Fraud,Crimes Against the Person,0
+2020,D32,SEXUAL Violation,Crimes Against the Person,0
+2015,D31,Attempt Murder,Crimes Against the Person,1
+2019,D11,Attempt Murder,Crimes Against the Person,0
+2018,D43,SEXUAL Violation,Crimes Against Property,0
+2021,D55,Robbery,Crimes Against Property,0
+2017,D42,Break & Enter,Crimes Against Property,0
+2022,D23,Theft,Crimes Against Property,0
+2021,D55,Fraud,Crimes Against Property,0
+2024,D13,Fraud,Crimes Against the Person,1
+2018,D22,Attempt Murder,Crimes Against the Person,0
+2023,D32,Theft,Crimes Against the Person,1
+2019,D23,Assault,Crimes Against the Person,0
+2024,D31,Other,Crimes Against the Person,1
+2016,D22,Fraud,Crimes Against the Person,0
+2017,D43,Fraud,Crimes Against Property,1
+2019,D22,Fraud,Crimes Against the Person,1
+2014,D51,Other,Crimes Against the Person,0
+2018,D13,SEXUAL Violation,Crimes Against Property,0
+2023,D41,Robbery,Crimes Against Property,0
+2017,D53,Break & Enter,Crimes Against the Person,1
+2024,D31,Fraud,Crimes Against the Person,0
+2020,D41,Fraud,Crimes Against the Person,1
+2021,D32,Robbery,Crimes Against the Person,1
+2018,D52,Assault,Crimes Against Property,1
+2019,D41,Theft,Crimes Against Property,1
+2019,D42,Robbery,Crimes Against the Person,1
+2021,D51,Fraud,Crimes Against Property,0
+2023,D11,Other,Crimes Against Property,1
+2021,D41,Theft,Crimes Against Property,0
+2024,D23,Attempt Murder,Crimes Against Property,0
+2016,D42,Break & Enter,Crimes Against Property,0
+2023,D52,Other,Crimes Against Property,1
+2024,D32,Other,Crimes Against the Person,1
+2022,D14,Other,Crimes Against Property,0
+2018,D22,Attempt Murder,Crimes Against Property,0
+2023,D41,Theft,Crimes Against the Person,0
+2019,D22,Robbery,Crimes Against the Person,1
+2015,D51,Assault,Crimes Against Property,1
+2019,D12,Fraud,Crimes Against Property,0
+2019,D23,SEXUAL Violation,Crimes Against Property,0
+2018,D41,Attempt Murder,Crimes Against Property,0
+2018,D31,Attempt Murder,Crimes Against Property,1
+2022,D33,Assault,Crimes Against the Person,0
+2019,D55,Assault,Crimes Against the Person,1
+2024,D43,Other,Crimes Against the Person,0
+2024,D52,Other,Crimes Against Property,1
+2019,D11,Fraud,Crimes Against the Person,0
+2015,D22,Attempt Murder,Crimes Against the Person,0
+2018,D52,Fraud,Crimes Against Property,0
+2023,D41,Attempt Murder,Crimes Against the Person,0
+2015,D33,Theft,Crimes Against the Person,0
+2022,D52,Robbery,Crimes Against Property,1
+2018,D31,Attempt Murder,Crimes Against Property,0
+2015,D51,Fraud,Crimes Against Property,0
+2016,D12,Other,Crimes Against Property,1
+2016,D41,Theft,Crimes Against the Person,0
+2024,D14,Other,Crimes Against the Person,0
+2015,D51,Attempt Murder,Crimes Against the Person,0
+2022,D13,Assault,Crimes Against Property,0
+2015,D23,Theft,Crimes Against the Person,1
+2024,D42,Theft,Crimes Against Property,1
+2014,D52,Attempt Murder,Crimes Against the Person,1
+2017,D55,Fraud,Crimes Against Property,0
+2019,D55,Break & Enter,Crimes Against Property,0
+2014,D23,SEXUAL Violation,Crimes Against Property,0
+2020,D55,Robbery,Crimes Against the Person,1
+2022,D23,Assault,Crimes Against Property,1
+2018,D22,Robbery,Crimes Against the Person,1
+2022,D12,Other,Crimes Against Property,0
+2023,D12,Theft,Crimes Against the Person,0
+2014,D11,SEXUAL Violation,Crimes Against the Person,1
+2021,D12,SEXUAL Violation,Crimes Against the Person,1
+2017,D42,Other,Crimes Against Property,1
+2020,D43,Theft,Crimes Against the Person,1
+2024,D43,Theft,Crimes Against Property,1
+2021,D33,Break & Enter,Crimes Against the Person,0
+2022,D32,Assault,Crimes Against the Person,0
+2024,D52,SEXUAL Violation,Crimes Against Property,0
+2016,D53,Other,Crimes Against the Person,1
+2020,D11,Robbery,Crimes Against Property,0
+2017,D14,Fraud,Crimes Against Property,0
+2019,D31,SEXUAL Violation,Crimes Against the Person,1
+2016,D51,Theft,Crimes Against Property,1
+2017,D14,Fraud,Crimes Against the Person,1
+2023,D52,Theft,Crimes Against the Person,1
+2015,D33,Robbery,Crimes Against the Person,0
+2017,D53,Break & Enter,Crimes Against the Person,1
+2021,D41,Fraud,Crimes Against the Person,1
+2023,D51,Fraud,Crimes Against Property,0
+2021,D14,Other,Crimes Against Property,0
+2015,D23,Robbery,Crimes Against Property,0
+2020,D23,Break & Enter,Crimes Against the Person,0
+2014,D55,Fraud,Crimes Against Property,1
+2022,D13,Robbery,Crimes Against Property,0
+2024,D43,Fraud,Crimes Against the Person,0
+2021,D55,Other,Crimes Against Property,1
+2016,D12,Break & Enter,Crimes Against the Person,0
+2023,D43,Break & Enter,Crimes Against the Person,0
+2016,D55,Attempt Murder,Crimes Against Property,1
+2023,D53,SEXUAL Violation,Crimes Against the Person,0
+2021,D51,SEXUAL Violation,Crimes Against Property,1
+2014,D43,SEXUAL Violation,Crimes Against Property,1
+2017,D12,SEXUAL Violation,Crimes Against Property,0
+2022,D22,Break & Enter,Crimes Against the Person,1
+2015,D11,Attempt Murder,Crimes Against the Person,1
+2016,D12,Break & Enter,Crimes Against Property,0
+2020,D23,Break & Enter,Crimes Against the Person,1
+2017,D32,Attempt Murder,Crimes Against Property,1
+2018,D52,Fraud,Crimes Against the Person,1
+2021,D33,Assault,Crimes Against Property,0
+2015,D53,Assault,Crimes Against the Person,0
+2014,D41,SEXUAL Violation,Crimes Against the Person,1
+2022,D31,Fraud,Crimes Against Property,1
+2017,D11,Assault,Crimes Against the Person,1
+2015,D32,Other,Crimes Against Property,0
+2024,D31,Fraud,Crimes Against the Person,0
+2024,D11,Theft,Crimes Against the Person,0
+2019,D22,SEXUAL Violation,Crimes Against the Person,1
+2018,D53,SEXUAL Violation,Crimes Against Property,1
+2016,D43,Other,Crimes Against the Person,0
+2023,D43,Assault,Crimes Against Property,0
+2016,D53,Break & Enter,Crimes Against the Person,0
+2019,D53,SEXUAL Violation,Crimes Against Property,1
+2022,D41,Theft,Crimes Against Property,1
+2017,D13,Other,Crimes Against the Person,0
+2020,D32,Theft,Crimes Against Property,0
+2024,D55,Robbery,Crimes Against the Person,0
+2021,D22,Attempt Murder,Crimes Against the Person,1
+2022,D13,Attempt Murder,Crimes Against Property,0
+2018,D32,Other,Crimes Against Property,1
+2014,D41,Break & Enter,Crimes Against the Person,1
+2019,D12,Break & Enter,Crimes Against the Person,1
+2024,D51,Fraud,Crimes Against the Person,1
+2020,D32,Attempt Murder,Crimes Against Property,1
+2017,D32,Theft,Crimes Against Property,1
+2021,D55,Assault,Crimes Against the Person,0
+2015,D14,Break & Enter,Crimes Against Property,1
+2021,D12,SEXUAL Violation,Crimes Against Property,0
+2020,D33,Theft,Crimes Against Property,1
+2017,D22,Other,Crimes Against the Person,0
+2019,D42,SEXUAL Violation,Crimes Against Property,1
+2017,D11,Other,Crimes Against the Person,1
+2021,D42,Robbery,Crimes Against the Person,1
+2024,D31,SEXUAL Violation,Crimes Against Property,1
+2020,D14,Break & Enter,Crimes Against the Person,1
+2019,D23,Attempt Murder,Crimes Against the Person,0
+2020,D32,Robbery,Crimes Against Property,0
+2014,D43,SEXUAL Violation,Crimes Against the Person,1
+2019,D12,Break & Enter,Crimes Against Property,1
+2015,D53,Other,Crimes Against Property,0
+2014,D23,Fraud,Crimes Against the Person,0
+2019,D51,Fraud,Crimes Against Property,1
+2021,D51,SEXUAL Violation,Crimes Against Property,1
+2022,D14,Attempt Murder,Crimes Against Property,1
+2017,D32,SEXUAL Violation,Crimes Against the Person,0
+2018,D55,Break & Enter,Crimes Against Property,1
+2022,D52,Robbery,Crimes Against Property,1
+2022,D12,Robbery,Crimes Against the Person,1
+2014,D51,SEXUAL Violation,Crimes Against Property,1
+2014,D42,Other,Crimes Against Property,1
+2022,D33,Break & Enter,Crimes Against Property,1
+2021,D53,Theft,Crimes Against Property,0
+2015,D42,Break & Enter,Crimes Against the Person,1
+2023,D22,Other,Crimes Against Property,0
+2017,D13,Other,Crimes Against the Person,1
+2019,D51,Fraud,Crimes Against the Person,1
+2020,D32,Break & Enter,Crimes Against Property,0
+2023,D42,Robbery,Crimes Against Property,0
+2018,D23,SEXUAL Violation,Crimes Against the Person,1
+2017,D11,Assault,Crimes Against the Person,0
+2020,D23,Other,Crimes Against the Person,0
+2016,D23,Break & Enter,Crimes Against Property,1
+2014,D55,SEXUAL Violation,Crimes Against the Person,0
+2017,D23,Attempt Murder,Crimes Against Property,1
+2021,D12,Theft,Crimes Against the Person,0
+2019,D32,Break & Enter,Crimes Against the Person,0
+2018,D31,Attempt Murder,Crimes Against the Person,0
+2022,D52,Robbery,Crimes Against Property,1
+2015,D51,Theft,Crimes Against the Person,0
+2021,D42,Fraud,Crimes Against Property,0
+2019,D12,Assault,Crimes Against the Person,1
+2017,D32,Theft,Crimes Against the Person,0
+2023,D32,Theft,Crimes Against Property,0
+2023,D52,Other,Crimes Against Property,1
+2017,D53,Break & Enter,Crimes Against Property,1
+2024,D14,Robbery,Crimes Against Property,0
+2022,D53,Theft,Crimes Against Property,0
+2014,D55,Theft,Crimes Against Property,1
+2017,D11,Break & Enter,Crimes Against the Person,1
+2022,D55,Assault,Crimes Against Property,0
+2016,D55,Assault,Crimes Against the Person,0
+2024,D31,SEXUAL Violation,Crimes Against Property,0
+2018,D31,Robbery,Crimes Against the Person,0
+2017,D12,Theft,Crimes Against Property,0
+2016,D14,Theft,Crimes Against Property,1
+2023,D51,Break & Enter,Crimes Against Property,0
+2023,D23,Robbery,Crimes Against Property,1
+2014,D41,Theft,Crimes Against Property,0
+2014,D41,Attempt Murder,Crimes Against Property,1
+2021,D32,Fraud,Crimes Against Property,0
+2018,D11,Assault,Crimes Against Property,1
+2023,D11,Fraud,Crimes Against the Person,0
+2015,D52,SEXUAL Violation,Crimes Against Property,1
+2017,D23,Robbery,Crimes Against the Person,1
+2016,D32,Theft,Crimes Against Property,0
+2017,D31,Fraud,Crimes Against the Person,1
+2021,D41,Other,Crimes Against Property,1
+2015,D51,Attempt Murder,Crimes Against Property,1
+2024,D33,Attempt Murder,Crimes Against Property,1
+2023,D12,SEXUAL Violation,Crimes Against Property,1
+2017,D32,Assault,Crimes Against Property,1
+2022,D51,Theft,Crimes Against Property,0
+2023,D53,Fraud,Crimes Against Property,1
+2021,D42,Assault,Crimes Against Property,0
+2020,D12,Fraud,Crimes Against Property,1
+2020,D23,SEXUAL Violation,Crimes Against Property,0
+2015,D43,Robbery,Crimes Against the Person,1
+2024,D12,Break & Enter,Crimes Against Property,0
+2022,D12,Break & Enter,Crimes Against the Person,1
+2021,D33,Break & Enter,Crimes Against Property,0
+2018,D31,SEXUAL Violation,Crimes Against the Person,0
+2021,D51,Break & Enter,Crimes Against the Person,1
+2017,D23,Other,Crimes Against Property,1
+2018,D31,SEXUAL Violation,Crimes Against Property,1
+2019,D22,Break & Enter,Crimes Against the Person,1
+2021,D52,Break & Enter,Crimes Against the Person,0
+2023,D41,SEXUAL Violation,Crimes Against Property,0
+2015,D33,Robbery,Crimes Against Property,0
+2014,D23,Theft,Crimes Against the Person,1
+2017,D51,Other,Crimes Against the Person,1
+2014,D32,Theft,Crimes Against Property,0
+2018,D12,Fraud,Crimes Against the Person,0
+2017,D51,Break & Enter,Crimes Against the Person,0
+2018,D43,Theft,Crimes Against Property,0
+2020,D32,Break & Enter,Crimes Against Property,1
+2015,D53,Fraud,Crimes Against Property,0
+2023,D31,Attempt Murder,Crimes Against Property,0
+2019,D13,Fraud,Crimes Against Property,0
+2016,D32,Theft,Crimes Against the Person,0
+2019,D43,Other,Crimes Against Property,0
+2020,D32,Break & Enter,Crimes Against the Person,1
+2015,D33,Theft,Crimes Against Property,1
+2024,D14,Fraud,Crimes Against Property,0
+2017,D41,Robbery,Crimes Against the Person,0
+2014,D51,Robbery,Crimes Against Property,0
+2020,D31,Robbery,Crimes Against Property,0
+2014,D55,Other,Crimes Against the Person,0
+2022,D12,SEXUAL Violation,Crimes Against Property,1
+2023,D55,Robbery,Crimes Against the Person,0
+2024,D43,Assault,Crimes Against the Person,0
+2018,D12,Attempt Murder,Crimes Against the Person,1
+2023,D42,Theft,Crimes Against the Person,1
+2024,D23,Robbery,Crimes Against the Person,0
+2024,D55,Break & Enter,Crimes Against the Person,0
+2015,D14,Robbery,Crimes Against Property,0
+2015,D43,Theft,Crimes Against the Person,0
+2016,D13,Assault,Crimes Against the Person,0
+2022,D33,Theft,Crimes Against Property,1
+2024,D23,SEXUAL Violation,Crimes Against the Person,1
+2014,D52,Fraud,Crimes Against Property,0
+2024,D51,Attempt Murder,Crimes Against the Person,1
+2021,D51,Other,Crimes Against the Person,1
+2021,D22,Fraud,Crimes Against Property,1
+2017,D11,Fraud,Crimes Against the Person,1
+2020,D55,Fraud,Crimes Against Property,1
+2014,D33,SEXUAL Violation,Crimes Against the Person,0
+2014,D23,Theft,Crimes Against the Person,0
+2021,D33,Fraud,Crimes Against Property,0
+2016,D43,Other,Crimes Against the Person,1
+2017,D43,Break & Enter,Crimes Against Property,0
+2018,D52,Break & Enter,Crimes Against the Person,1
+2023,D33,Robbery,Crimes Against Property,1
+2014,D55,SEXUAL Violation,Crimes Against Property,0
+2016,D55,Theft,Crimes Against Property,1
+2022,D12,Break & Enter,Crimes Against the Person,0
+2019,D12,SEXUAL Violation,Crimes Against the Person,0
+2014,D41,Assault,Crimes Against Property,1
+2020,D11,Fraud,Crimes Against the Person,0
+2021,D31,Robbery,Crimes Against the Person,1
+2020,D51,Robbery,Crimes Against the Person,0
+2024,D33,Other,Crimes Against Property,1
+2020,D33,Other,Crimes Against Property,0
+2014,D42,Break & Enter,Crimes Against Property,0
+2022,D13,Robbery,Crimes Against Property,0
+2021,D41,Break & Enter,Crimes Against the Person,1
+2014,D32,Attempt Murder,Crimes Against Property,0
+2017,D13,Assault,Crimes Against the Person,1
+2019,D42,Attempt Murder,Crimes Against Property,0
+2018,D31,Break & Enter,Crimes Against the Person,0
+2017,D31,Fraud,Crimes Against Property,0
+2017,D32,Break & Enter,Crimes Against the Person,0
+2018,D31,SEXUAL Violation,Crimes Against the Person,0
+2021,D14,SEXUAL Violation,Crimes Against the Person,0
+2019,D14,Robbery,Crimes Against Property,1
+2021,D41,Theft,Crimes Against the Person,1
+2022,D12,Assault,Crimes Against Property,1
+2023,D12,Break & Enter,Crimes Against the Person,1
+2018,D23,SEXUAL Violation,Crimes Against the Person,0
+2023,D53,Theft,Crimes Against Property,0
+2014,D33,Theft,Crimes Against Property,0
+2017,D51,Theft,Crimes Against the Person,1
+2017,D32,Robbery,Crimes Against Property,0
+2016,D12,Robbery,Crimes Against Property,1
+2017,D13,Break & Enter,Crimes Against the Person,0
+2024,D52,Fraud,Crimes Against Property,1
+2017,D13,Attempt Murder,Crimes Against the Person,1
+2024,D23,Break & Enter,Crimes Against Property,1
+2017,D52,Attempt Murder,Crimes Against the Person,1
+2015,D52,Attempt Murder,Crimes Against Property,1
+2015,D42,Theft,Crimes Against Property,0
+2016,D14,Other,Crimes Against the Person,1
+2015,D33,Attempt Murder,Crimes Against Property,1
+2021,D13,Robbery,Crimes Against the Person,1
+2017,D55,Theft,Crimes Against Property,0
+2018,D42,Robbery,Crimes Against Property,1
+2024,D53,Other,Crimes Against Property,0
+2017,D33,Attempt Murder,Crimes Against the Person,1
+2019,D42,SEXUAL Violation,Crimes Against Property,0
+2017,D52,Robbery,Crimes Against the Person,1
+2016,D53,SEXUAL Violation,Crimes Against Property,0
+2024,D23,SEXUAL Violation,Crimes Against Property,1
+2016,D41,SEXUAL Violation,Crimes Against the Person,1
+2018,D41,Theft,Crimes Against the Person,0
+2020,D23,Robbery,Crimes Against Property,1
+2022,D53,Other,Crimes Against the Person,1
+2022,D14,Assault,Crimes Against the Person,1
+2020,D31,Fraud,Crimes Against the Person,0
+2022,D33,Attempt Murder,Crimes Against the Person,1
+2019,D14,Break & Enter,Crimes Against the Person,1
+2014,D55,Assault,Crimes Against the Person,1
+2018,D33,Attempt Murder,Crimes Against the Person,0
+2014,D31,Other,Crimes Against Property,1
+2016,D23,Theft,Crimes Against Property,1
+2016,D32,Robbery,Crimes Against the Person,0
+2014,D12,Assault,Crimes Against Property,1
+2020,D22,SEXUAL Violation,Crimes Against Property,1
+2022,D12,Robbery,Crimes Against Property,1
+2015,D22,Fraud,Crimes Against Property,0
+2015,D43,SEXUAL Violation,Crimes Against Property,0
+2021,D55,SEXUAL Violation,Crimes Against Property,1
+2017,D55,Break & Enter,Crimes Against Property,1
+2018,D33,SEXUAL Violation,Crimes Against Property,1
+2015,D41,Assault,Crimes Against the Person,0
+2017,D11,Robbery,Crimes Against Property,0
+2022,D43,Other,Crimes Against Property,1
+2014,D53,Theft,Crimes Against the Person,1
+2015,D41,Fraud,Crimes Against Property,1
+2021,D31,Attempt Murder,Crimes Against Property,0
+2022,D12,Break & Enter,Crimes Against the Person,1
+2015,D14,Fraud,Crimes Against Property,1
+2023,D52,Robbery,Crimes Against the Person,1
+2018,D51,Robbery,Crimes Against Property,0
+2023,D41,Other,Crimes Against the Person,1
+2021,D12,Theft,Crimes Against the Person,1
+2024,D12,Assault,Crimes Against Property,0
+2015,D51,Fraud,Crimes Against the Person,1
+2020,D23,Robbery,Crimes Against Property,0
+2024,D14,Assault,Crimes Against the Person,1
+2021,D43,Attempt Murder,Crimes Against Property,0
+2023,D12,SEXUAL Violation,Crimes Against Property,1
+2016,D12,Other,Crimes Against Property,0
+2019,D55,Other,Crimes Against the Person,1
+2019,D53,Assault,Crimes Against the Person,1
+2014,D23,Theft,Crimes Against the Person,0
+2024,D22,Attempt Murder,Crimes Against the Person,0
+2020,D53,Break & Enter,Crimes Against Property,0
+2017,D43,Break & Enter,Crimes Against the Person,1
+2020,D51,Theft,Crimes Against the Person,0
+2016,D55,Fraud,Crimes Against Property,1
+2017,D13,Attempt Murder,Crimes Against the Person,1
+2021,D12,Other,Crimes Against Property,1
+2020,D31,Theft,Crimes Against the Person,0
+2021,D43,Attempt Murder,Crimes Against Property,1
+2021,D52,Robbery,Crimes Against Property,0
+2023,D23,Assault,Crimes Against the Person,0
+2022,D51,SEXUAL Violation,Crimes Against Property,1
+2019,D52,SEXUAL Violation,Crimes Against Property,1
+2020,D14,Other,Crimes Against the Person,1
+2024,D14,Assault,Crimes Against Property,1
+2016,D51,Attempt Murder,Crimes Against the Person,1
+2016,D52,Other,Crimes Against the Person,0
+2020,D23,Fraud,Crimes Against the Person,0
+2019,D51,Theft,Crimes Against the Person,1
+2020,D22,Attempt Murder,Crimes Against Property,1
+2024,D14,Other,Crimes Against the Person,0
+2019,D13,Assault,Crimes Against Property,1
+2017,D31,Assault,Crimes Against Property,0
+2022,D11,Other,Crimes Against the Person,0
+2015,D55,Attempt Murder,Crimes Against Property,1
+2022,D23,Other,Crimes Against the Person,0
+2016,D51,Assault,Crimes Against the Person,1
+2018,D52,SEXUAL Violation,Crimes Against Property,1
+2019,D33,SEXUAL Violation,Crimes Against the Person,0
+2017,D53,Assault,Crimes Against the Person,0
+2018,D22,Fraud,Crimes Against the Person,0
+2018,D55,Robbery,Crimes Against Property,1
+2018,D51,Break & Enter,Crimes Against Property,1
+2024,D53,Fraud,Crimes Against Property,1
+2021,D41,Theft,Crimes Against the Person,0
+2022,D42,Assault,Crimes Against the Person,0
+2023,D51,Fraud,Crimes Against the Person,1
+2024,D11,Assault,Crimes Against Property,1
+2020,D43,Fraud,Crimes Against Property,0
+2017,D43,Break & Enter,Crimes Against the Person,0
+2015,D42,SEXUAL Violation,Crimes Against the Person,1
+2024,D12,Theft,Crimes Against Property,0
+2017,D23,Theft,Crimes Against Property,0
+2015,D52,Assault,Crimes Against the Person,1
+2018,D41,SEXUAL Violation,Crimes Against Property,1
+2019,D41,Other,Crimes Against the Person,0
+2019,D13,Attempt Murder,Crimes Against the Person,0
+2022,D33,SEXUAL Violation,Crimes Against Property,1
+2023,D31,SEXUAL Violation,Crimes Against the Person,0
+2019,D22,Fraud,Crimes Against Property,1
+2020,D41,SEXUAL Violation,Crimes Against the Person,1
+2019,D33,Attempt Murder,Crimes Against the Person,0
+2016,D52,Fraud,Crimes Against the Person,0
+2017,D11,SEXUAL Violation,Crimes Against Property,0
+2015,D53,Assault,Crimes Against the Person,0
+2015,D52,Fraud,Crimes Against Property,0
+2018,D11,Other,Crimes Against the Person,1
+2016,D13,Theft,Crimes Against Property,1
+2018,D23,Theft,Crimes Against Property,1
+2023,D32,Assault,Crimes Against the Person,0
+2019,D41,Other,Crimes Against Property,1
+2019,D13,SEXUAL Violation,Crimes Against Property,1
+2023,D13,Robbery,Crimes Against the Person,1
+2022,D55,Other,Crimes Against the Person,0
+2014,D13,Other,Crimes Against the Person,1
+2020,D41,Assault,Crimes Against the Person,0
+2020,D43,Break & Enter,Crimes Against Property,0
+2024,D42,Attempt Murder,Crimes Against the Person,0
+2024,D11,Other,Crimes Against Property,1
+2024,D12,SEXUAL Violation,Crimes Against the Person,1
+2017,D13,Robbery,Crimes Against Property,1
+2019,D42,Assault,Crimes Against the Person,0
+2021,D11,Robbery,Crimes Against the Person,0
+2024,D14,Break & Enter,Crimes Against the Person,0
+2021,D51,SEXUAL Violation,Crimes Against the Person,0
+2020,D51,Assault,Crimes Against the Person,0
+2024,D55,Fraud,Crimes Against Property,0
+2019,D33,Theft,Crimes Against the Person,0
+2019,D33,Robbery,Crimes Against the Person,1
+2021,D11,Other,Crimes Against the Person,1
+2020,D53,SEXUAL Violation,Crimes Against the Person,1
+2017,D14,Robbery,Crimes Against Property,1
+2017,D12,Fraud,Crimes Against Property,1
+2024,D53,SEXUAL Violation,Crimes Against the Person,1
+2016,D42,Theft,Crimes Against the Person,0
+2018,D43,Robbery,Crimes Against the Person,1
+2017,D51,SEXUAL Violation,Crimes Against the Person,0
+2019,D42,SEXUAL Violation,Crimes Against the Person,1
+2022,D13,Assault,Crimes Against the Person,1
+2015,D42,Break & Enter,Crimes Against Property,1
+2015,D53,Other,Crimes Against Property,1
+2018,D22,Attempt Murder,Crimes Against Property,1
+2017,D51,Theft,Crimes Against Property,0
+2014,D42,Robbery,Crimes Against Property,1
+2018,D51,Fraud,Crimes Against Property,0
+2018,D42,SEXUAL Violation,Crimes Against the Person,1
+2014,D33,Theft,Crimes Against Property,0
+2014,D43,Other,Crimes Against Property,0
+2020,D13,SEXUAL Violation,Crimes Against the Person,1
+2015,D22,Fraud,Crimes Against Property,1
+2020,D41,Other,Crimes Against Property,1
+2018,D41,Theft,Crimes Against the Person,0
+2020,D41,Theft,Crimes Against the Person,0
+2018,D32,Other,Crimes Against Property,1
+2024,D52,Fraud,Crimes Against the Person,1
+2024,D13,Fraud,Crimes Against Property,1
+2022,D31,Fraud,Crimes Against Property,1
+2017,D52,SEXUAL Violation,Crimes Against Property,1
+2017,D43,Theft,Crimes Against Property,0
+2017,D12,Break & Enter,Crimes Against Property,0
+2024,D23,Other,Crimes Against Property,1
+2024,D42,Assault,Crimes Against Property,0
+2021,D55,Attempt Murder,Crimes Against the Person,1
+2016,D52,Other,Crimes Against Property,1
+2014,D31,Break & Enter,Crimes Against Property,0
+2019,D32,Assault,Crimes Against Property,0
+2014,D55,Robbery,Crimes Against the Person,0
+2018,D12,SEXUAL Violation,Crimes Against the Person,1
+2023,D11,Theft,Crimes Against the Person,0
+2015,D14,Fraud,Crimes Against Property,0
+2018,D43,Fraud,Crimes Against the Person,0
+2023,D13,Theft,Crimes Against Property,1
+2018,D13,Assault,Crimes Against Property,0
+2022,D55,Robbery,Crimes Against Property,1
+2017,D43,Other,Crimes Against the Person,1
+2014,D11,SEXUAL Violation,Crimes Against the Person,0
+2016,D53,Fraud,Crimes Against Property,0
+2024,D52,Attempt Murder,Crimes Against Property,1
+2018,D52,Break & Enter,Crimes Against Property,0
+2018,D12,Theft,Crimes Against the Person,1
+2015,D12,Theft,Crimes Against the Person,1
+2017,D51,Attempt Murder,Crimes Against the Person,1
+2016,D33,Break & Enter,Crimes Against Property,1
+2023,D55,Attempt Murder,Crimes Against the Person,0
+2016,D13,Robbery,Crimes Against Property,1
+2023,D41,Attempt Murder,Crimes Against Property,0
+2024,D14,SEXUAL Violation,Crimes Against the Person,1
+2016,D12,Fraud,Crimes Against the Person,1
+2019,D53,Break & Enter,Crimes Against the Person,0
+2015,D14,Other,Crimes Against the Person,0
+2023,D31,Other,Crimes Against Property,0
+2014,D42,Assault,Crimes Against Property,1
+2019,D55,SEXUAL Violation,Crimes Against Property,0
+2015,D13,Other,Crimes Against the Person,0
+2019,D52,SEXUAL Violation,Crimes Against Property,0
+2015,D43,Break & Enter,Crimes Against Property,0
+2016,D52,Break & Enter,Crimes Against the Person,1
+2015,D31,Other,Crimes Against the Person,1
+2016,D22,Assault,Crimes Against Property,0
+2020,D41,SEXUAL Violation,Crimes Against the Person,1
+2020,D41,Assault,Crimes Against the Person,0
+2024,D14,SEXUAL Violation,Crimes Against Property,0
+2015,D13,Attempt Murder,Crimes Against Property,0
+2019,D51,Fraud,Crimes Against Property,1
+2014,D23,Robbery,Crimes Against the Person,0
+2017,D22,Other,Crimes Against the Person,1
+2017,D13,Attempt Murder,Crimes Against the Person,1
+2017,D32,Robbery,Crimes Against Property,0
+2021,D53,Other,Crimes Against the Person,0
+2015,D13,SEXUAL Violation,Crimes Against the Person,1
+2018,D42,Other,Crimes Against Property,0
+2022,D31,Robbery,Crimes Against Property,1
+2024,D32,Other,Crimes Against the Person,1
+2016,D55,Fraud,Crimes Against Property,0
+2020,D22,Theft,Crimes Against the Person,1
+2021,D52,SEXUAL Violation,Crimes Against the Person,0
+2019,D13,SEXUAL Violation,Crimes Against the Person,1
+2021,D32,Attempt Murder,Crimes Against the Person,0
+2022,D42,Attempt Murder,Crimes Against Property,1
+2023,D13,Attempt Murder,Crimes Against the Person,1
+2021,D12,SEXUAL Violation,Crimes Against Property,0
+2024,D32,Robbery,Crimes Against the Person,0
+2024,D41,Theft,Crimes Against the Person,1
+2024,D43,Fraud,Crimes Against Property,0
+2021,D51,Break & Enter,Crimes Against the Person,1
+2021,D53,Break & Enter,Crimes Against Property,1
+2019,D31,Robbery,Crimes Against Property,0
+2017,D53,SEXUAL Violation,Crimes Against the Person,1
+2015,D43,Theft,Crimes Against Property,1
+2016,D13,Assault,Crimes Against Property,0
+2022,D33,Assault,Crimes Against the Person,1
+2017,D11,Break & Enter,Crimes Against Property,0
+2022,D14,Other,Crimes Against Property,1
+2021,D51,Break & Enter,Crimes Against Property,1
+2017,D23,Theft,Crimes Against Property,1
+2022,D53,Other,Crimes Against the Person,0
+2022,D13,Break & Enter,Crimes Against Property,0
+2022,D51,Break & Enter,Crimes Against the Person,1
+2022,D31,Fraud,Crimes Against Property,1
+2024,D12,Assault,Crimes Against the Person,0
+2017,D13,Assault,Crimes Against Property,0
+2024,D55,Theft,Crimes Against Property,1
+2020,D32,Attempt Murder,Crimes Against Property,1
+2015,D42,Other,Crimes Against the Person,1
+2015,D31,Other,Crimes Against the Person,1
+2022,D11,Theft,Crimes Against Property,1
+2022,D32,Theft,Crimes Against the Person,1
+2018,D51,SEXUAL Violation,Crimes Against Property,1
+2017,D52,Assault,Crimes Against the Person,1
+2014,D22,Fraud,Crimes Against the Person,0
+2020,D31,Fraud,Crimes Against Property,0
+2017,D33,SEXUAL Violation,Crimes Against the Person,0
+2020,D53,Robbery,Crimes Against the Person,0
+2019,D52,Attempt Murder,Crimes Against the Person,0
+2016,D14,Assault,Crimes Against Property,1
+2020,D11,Other,Crimes Against Property,0
+2020,D43,Attempt Murder,Crimes Against the Person,0
+2015,D33,Assault,Crimes Against Property,0
+2016,D55,Fraud,Crimes Against Property,0
+2021,D43,Break & Enter,Crimes Against the Person,1
+2023,D51,Robbery,Crimes Against the Person,0
+2015,D32,Attempt Murder,Crimes Against the Person,0
+2014,D11,SEXUAL Violation,Crimes Against the Person,0
+2014,D12,Theft,Crimes Against Property,1
+2014,D32,SEXUAL Violation,Crimes Against the Person,0
+2015,D51,Assault,Crimes Against Property,1
+2019,D33,Fraud,Crimes Against Property,1
+2017,D23,SEXUAL Violation,Crimes Against Property,1
+2018,D32,Other,Crimes Against Property,1
+2024,D13,Other,Crimes Against Property,1
+2015,D12,Other,Crimes Against the Person,0
+2024,D13,Theft,Crimes Against Property,1
+2015,D32,Other,Crimes Against the Person,1
+2024,D42,Theft,Crimes Against Property,0
+2024,D12,Theft,Crimes Against Property,1
+2015,D43,Attempt Murder,Crimes Against the Person,1
+2022,D41,Assault,Crimes Against the Person,1
+2022,D11,Assault,Crimes Against the Person,0
+2020,D53,Attempt Murder,Crimes Against Property,1
+2024,D12,Robbery,Crimes Against Property,0
+2023,D14,Robbery,Crimes Against the Person,1
+2014,D31,Theft,Crimes Against the Person,1
+2024,D55,Attempt Murder,Crimes Against Property,1
