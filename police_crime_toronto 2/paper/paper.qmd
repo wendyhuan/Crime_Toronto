@@ -1,0 +1,267 @@
+---
+title: "A Decade of Crime in Toronto: Trends, Challenges and Responses (2014-2024)"
+author: 
+  - Yanfei Huang
+thanks: "Code and data are available at: ."
+date: September 24 2024
+date-format: long
+abstract: "This paper provides an overview of the crime reported in Toronto between years 2014 and 2024. Using data of reported crime collected by opendatatoronto, we analyze the crime type and crime target under different districts of Toronto between 2014 and 2024. Our finding reveals that the crime types shift around time, with a marked rise in property-related crimes within ten years. These insights can help shape a comprehensive understanding of crime dynamics in Toronto during the 2014-2024 period and contribute to discussions on improving public safety and crime prevention strategies."
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(opendatatoronto)
+library(readxl)
+library(styler)
+library(dplyr)
+library(arrow)
+library(ggrepel)
+library(knitr)
+library(kableExtra)
+library(patchwork)
+library(sf)
+library(lintr)
+library(tinytex)
+
+analysis_data <- read.csv("../data/analysis_data/analysis_data.csv")
+
+```
+
+# Introduction
+
+Toronto consistently ranks high in studies that examine the safety of cities. For instance, the Queen City was classified as the second safest city in the world in The Economist's Safe Cities Ranking 2021, with Copenhagen, Denmark, coming in first. With the index rating 60 of the world’s major cities using 76 safety-related indicators, such as infrastructure, personal security, health, and digital, Toronto came in seventh place worldwide in personal safety. Undoubtedly, the crime rate in general has dropped since 2000, with the 2023 crime rate reaching 25% lower than peak levels in 2003. We may conclude that Toronto has made significant advancements in prioritizing public safety as a primary objective.
+
+However, despite these rankings and numbers, crime rates in Toronto are increasing in 2023, according to major crime indicators statistics tracked by the Toronto Police Service. This increase could be an attribution to a combination of factors related to the covid-19, as the pandemic significantly impacted Toronto's economy, which in turn influenced crime rates.
+
+This made us pose the question, under the big trend of decreasing compared to 2003, how does the crime rate change each year and what crime type has been most commit. What’s more, under the big hit of COVID, how did our community safety change. Is our district still safe for living?
+
+To explore this issue, this study leverage the database from City of Toronto’s Open Data Portal, which is published by Toronto Police Services. This dataset contains all reported crime offences by reported date aggregated by division. Our analysis focus on the recent decade (2014-2024) and the crimes against property as well as the crime against the person. By dividing the time into first five years (2014-2019), COVID period (2020-2023) and after COVID/ present (2024), we would like to explore how the crime rate has changed during these three time period and what crime has been commit most under three different society situation.
+
+The paper is structured as followed: Section 2 discusses the data and methodologies used in understanding, cleaning and simulating. Section 3 explores the result,followed by discussions of the relationship between the variables of interests. And section 4 explores the broader implications for the trend of Toronto crime.
+
+# Data {#sec-data}
+
+The raw data was sourced from the City of Toronto's Open Data Portal using the `opendatatoronto` [@openDataToronto] package. One data sets was downloaded: **Police Annual Statistical Report - Reported Crimes** [@crimedata2024]. The data, provided in Excel and CSV formats, was cleaned and analyzed using R [@citeR] programming language. The `readxl` [@readxl] package was used for reading Excel files. Other R packages used include `tidyverse` [@tidyverse], `styler` [@styler], and `dplyr` [@dplyr] for creating tables. The `ggplot2` [@ggplot2] and `kableExtra` [@kableExtra] were used for data visualization and table formatting. The `patchwork` [@patchwork] package was used for combining multiple plots, and `sf` [@sf] for spatial data analysis.
+
+The data consists of reported crimes that was received by the Toronto Police Service. The year of the report for each of the 16 Toronto divisions given in the DIVISION variable is included in the variable REPORT_YEAR. The SUBTYPE variable identifies the particular crimes committed, whereas the CATEGORY variable mainly separates the reports into "Crimes Against Person" and "Crimes Against Property." The variables COUNT\_, which shows the total number of crime reports, and COUNT_CLEARED, which shows the number of reports that have been cleared, are also included in this dataset.
+
+In data cleaning, we select the two main categories "Crimes Against Property" and "Crimes Against the Person" and changed the name "SUBTYPE" into "Crime TYPE" for better understanding. We as well merge all the precise residence classification of Break & Enter, such as "Break & Enter-Apartment", "Break & Enter-House", and "Break & Enter-Commercial" into "Break & Enter" for easier interpretation. Same combinations are also made for "Theft" and "Robbery" by merging the amount of theft and robbery. In order to explore the impact of COVID to the crime type and crime amount, we add one other column called "Period" which we mutate the decade into three time slot. From 2014 to 2019 is called "2014-2019", represents the period before COVID, while 2020-2022 "COVID Period", as its name, represents the COVID period. Notice that 2024 isn't shown in this dataset, year 2023 has became the presentation of the period "After COVID". After cleaning, the data was stored in "analysis_data.csv" with the following columns:
+
+-   `id`: random id for the observations,
+-   `REPROT_YEAR`: the year of the report,
+-   `DIVISION`: unique id for different district in Toronto,
+-   `CATEGORY`: "Crimes Against Property" or "Crimes Against the Person",
+-   `CRIME_TYPE`: the types of crime,
+-   `COUNT_`: amount of the crime occur,
+-   `COUNT_CLEARED`: amount of cleared case ,
+-   `PERIOD`: "2014-2019", "COVID Period", or "After COVID"
+
+A glimpse of the first five rows of the cleaned dataset is shown in @tbl-preview_cleaned_data.
+
+```{r}
+#| echo: false
+#| message: false
+#| label: tbl-preview_cleaned_data
+#| tbl-cap: Sample of Cleaned Toronto Crime Data
+#| tbl-pos: "h"
+
+analysis_data |> 
+  head(5) |>
+  kable(col.names = c("id", "REPORT_YEAR","DIVISION", "CATEGORY",	"CRIME_TYPE",	"COUNT_","COUNT_CLEARED", "PERIOD"), 
+        booktabs = TRUE, 
+        align = "c")
+
+```
+
+# Results
+
+The bar chart of the yearly Crime in Toronto indicates that the total number of reported crimes increased steadily from 2014, reaching a peak in 2019. There was a noticeable dip in 2020 and 2021, likely due to the COVID-19 pandemic, but crime rates rose again in 2022 and 2023, with 2023 recording the highest crime numbers in the dataset.(@fig-yearlycrimereport) In 2019, there were around 110,000 crime reports, while during the COVID period, this number dived into around 80,000 in 2020 and 2021. As the COVID period lasted longer, the crime rate suddenly jumped to approximately 110,000 in 2022 and kept rising to 140,000 by 2023.
+
+```{r}
+#| echo: false
+#| label: fig-yearlycrimereport
+#| fig-cap: Toronto Crime Reports per Year 
+
+library(tidyverse)
+library(dplyr)
+
+crime_counts_per_year <- cleaned_data %>%
+  group_by(REPORT_YEAR) %>%          
+  summarise(total_crime_count1 = sum(COUNT_, na.rm = TRUE))
+
+ggplot(crime_counts_per_year, aes(x = factor(REPORT_YEAR), y = total_crime_count1)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  labs(title = "Yearly Toronto Crime Reports",
+       x = "Report Year",
+       y = "Number of Reports (in thousands)") +
+  scale_y_continuous(labels = scales::comma_format(scale = 1e-3, suffix = "k")) +  
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5)
+  )
+
+```
+
+Through this yearly crime type accumulation, we could oobviously indicate that Theft has been the most commit crime in this decade. Even during the COVID period, which has the least crime commit, theft still kept the first place for all the commit crimes. (@fig-crimetype)
+
+The majority of the reports in property crimes were from (@fig-theft). Though there was a notable decline during the onset of COVID-19 from approximately 50,000 in 2019 to approximately 39,000 in 2020, in 2023, there were over 68000 theft crime commit, which was the highest record over the decade. This situation easily reminiscent of the economic depression after COVID.
+
+Besides theft, the commit of the other crimes were almost at the same level, with Assault and Others each around 14000 issues per year and 15000 every year.Fraud has a rise trend these years, though with small fluctuations, which starting from 4000 issues in 2014 till 12500 issues in 2023. Fortunately, it is delight to figure that both robbery and sexual violation almost had no variation, keeping around 2500 issues every year. (@fig-crime_type_notheft)
+
+by contrast, there were generally not as many home invasion cases (@fig-invasion). Unlike property thefts, the peak for home invasions was during 2019 with approximately 7,500 cases. Reports significantly declined to around 6,000 in 2020 and 5,000 in 2021, but has steadily increased back to approximately 6,000 in 2023.
+
+```{r}
+#| label: fig-crimetype
+#| fig-cap: Crime type commit in decades
+#| echo: false
+
+library(ggplot2)
+library(dplyr)
+
+different_crime <- cleaned_data %>%
+  group_by(REPORT_YEAR,CRIME_TYPE) %>%  
+  summarise(crime_differenttype = sum(COUNT_, na.rm = TRUE),.groups = "drop")
+
+ggplot(different_crime, aes(x = REPORT_YEAR, y = crime_differenttype, fill = CRIME_TYPE)) +
+  geom_bar(stat = "identity", position = "dodge") +  # 'position = "dodge"' places bars side by side
+  labs(title = "Total Crime Count by Year and Crime Type",
+       x = "Year",
+       y = "Total Crime Count(in thousands)") +
+  scale_y_continuous(labels = scales::comma_format(scale = 1e-3, suffix = "k") )+
+  theme_minimal() +  # Use a clean theme
+  scale_fill_brewer(palette = "Set1") +
+  theme(
+    plot.title = element_text(hjust = 0.5)
+  )
+
+```
+
+```{r}
+#| label: fig-theft
+#| fig-cap: Propert Theft Reports per Year in Toronto
+#| echo: false
+
+theft_data <- cleaned_data %>%
+  filter(CRIME_TYPE == "Theft")
+
+theft_counts_per_year <- theft_data %>%
+  group_by(REPORT_YEAR) %>%
+  summarise(total_crime_count = sum(COUNT_))
+
+ggplot(theft_counts_per_year, aes(x = factor(REPORT_YEAR), y = total_crime_count)) +
+  geom_bar(stat = "identity", fill = "brown") + 
+  labs(title = "Yearly Toronto Property Theft Reports",
+       x = "Report Year",
+       y = "Number of Reports") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5) 
+  )
+```
+
+```{r}
+#| label: fig-crime_type_notheft
+#| fig-cap: Total Crime Count by Year and Crime Type (Excluding Theft)
+#| echo: false
+
+filtered_data <- cleaned_data %>%
+  filter(CRIME_TYPE != "Theft")
+
+# Group by REPORT_YEAR and CRIME_TYPE, then summarize total crime count
+crime_counts_per_year_and_type <- filtered_data %>%
+  group_by(REPORT_YEAR, CRIME_TYPE) %>%
+  summarise(total_crime_count = sum(COUNT_, na.rm = TRUE),.groups = "drop")
+
+# Create the bar plot excluding "Theft"
+ggplot(crime_counts_per_year_and_type, aes(x = REPORT_YEAR, y = total_crime_count, fill = CRIME_TYPE)) +
+  geom_bar(stat = "identity", position = "dodge") + 
+  labs(title = "Total Crime Count by Year and Crime Type (Excluding Theft)",
+       x = "Year",
+       y = "Total Crime Count") +
+  theme_minimal() + 
+  scale_fill_brewer(palette = "Set1")+
+  theme(
+    plot.title = element_text(hjust = 0.5)
+  )
+
+```
+
+Despite the growth of property crime in 2023, the property crime commit during and after COVID (2020-2023) was much more less than 2014-2019. In order to check how much difference does each district has between these two time period, Crime Against Property was listed out for the plot below. Y- axis shows the percentage of difference of 2014- 2019 period COVID Period divide 2014-2019 (Pre-COVID). We could observe that across the 16 divisions in Toronto, Division 52 showed the most significant change in 'Crimes Against Property" during and after COVID-19, followed by Division 41 and Division 43. This indicates that after COVID, Division 52, 41 and 43 has made the most significant change in becoming one of the most safety divisions among all the 16 divisions. On contract, with only around 5% difference, Division 13 shows almost no difference this decade. (@fig-divisioncrimechange).
+
+```{r}
+#| label: fig-divisioncrimechange
+#| fig-cap: Crime change in different districts
+#| echo: false
+
+library(dplyr)
+
+# Group the first 2020-2022 and 2023 periods together 
+grouped_data <- cleaned_data %>%
+  mutate(Grouped_Period = ifelse(REPORT_YEAR %in% c('2020','2021','2022',"2023"), "COVID","2014-2019"))
+
+
+# Summarize each district crime for each grouped period
+district_crime_by_period <- grouped_data %>%
+  filter(CATEGORY == 'Crimes Against Property')%>%
+  group_by(DIVISION, Grouped_Period) %>%
+  summarize(Total_Crimes = sum(COUNT_, na.rm = TRUE), .groups = 'drop')
+
+# Calculate the percentage change between the two grouped periods
+percentage_change <- district_crime_by_period %>%
+  pivot_wider(names_from = Grouped_Period, values_from = Total_Crimes) %>%
+  reframe(
+    DIVISION,
+    Change_Percent = (`2014-2019`- `COVID`) / `2014-2019` * 100
+  )
+
+# Visualize the change across divisions
+ggplot(percentage_change, aes(x = reorder(DIVISION, Change_Percent), y = Change_Percent)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  coord_flip() +
+  labs(title = "Percentage Change in Property Crime 2014-2019 and COVID",
+       x = "Division", 
+       y = "Percentage Change") +
+  theme_minimal()
+
+```
+
+# Discussion
+
+## Total trend of the decade
+
+The total crime trend in Toronto from 2014 to 2024 illustrates a complex landscape of crime dynamics influenced by various social, economic, and environmental factors.
+
+Initially, the data shows a steady increase in total reported crimes, reaching a peak in 2019. This escalation can be attributed to a growing urban population, increased visibility of crime reporting, and possibly rising economic disparities. The upward trend reflected the broader challenges cities face, including issues related to housing, social services, and community safety.
+
+However, the onset of the COVID-19 pandemic in 2020 brought an unexpected shift. During the early months of the pandemic, total crime rates saw a decline, as lockdowns and restrictions limited movement and increased police presence. This temporary drop indicated that certain crimes were directly linked to the vibrancy of urban life—less movement meant fewer opportunities for crimes like theft and burglary.
+
+In 2021, as society began to adjust to pandemic-related restrictions, the crime rate began to stabilize, but the data shows a gradual increase again in subsequent years. By 2022 and 2023, crime rates surged to unprecedented levels, surpassing pre-pandemic figures. This resurgence can be linked to several factors, including the economic fallout from the pandemic, rising unemployment, and social unrest.
+
+Additionally, the increase in property crimes and thefts reflects the broader economic struggles faced by many individuals during this period. Communities that had been severely affected by the pandemic experienced heightened vulnerability, leading to increased crime rates.
+
+Overall, the total crime trend from 2014 to 2024 in Toronto reveals not only the immediate impacts of the COVID-19 pandemic but also longer-term socio-economic challenges. This trend underscores the importance of understanding the underlying factors driving crime, the need for responsive law enforcement strategies, and the role of community support systems in fostering public safety and resilience in urban environments.
+
+## COVID Influence
+
+The COVID-19 pandemic significantly impacted various facets of life, including crime patterns in Toronto. Initially, as lockdowns and restrictions were enforced, many types of crime, especially property crimes, saw a decrease due to heightened police presence and the reduced movement of people. However, as the city adapted to new norms and restrictions began to ease, a troubling trend emerged: theft and property crimes surged.
+
+Though the data we could clearly find that from 2022 onward, the data shows a marked increase in theft-related incidents. This rise can be attributed to several factors. Firstly, economic challenges stemming from the pandemic led to job losses and financial instability for many residents, which may have driven some individuals toward crime as a means of survival. Secondly, with more people spending time at home and businesses adjusting to new operating procedures, opportunities for theft became more apparent, particularly in residential areas.
+
+By 2023, thefts had escalated significantly compared to pre-pandemic levels, raising concerns among residents and law enforcement. This spike in theft illustrates how the pandemic not only altered daily life but also reshaped the landscape of crime in Toronto, revealing the complex interplay between societal challenges and criminal behavior.
+
+## District Safety
+
+With the data showing that some district has made numerous change in strengthen the safety, Toronto is actively endeavouring to ensure the safety of its inhabitants. As crime rates fluctuate across neighborhoods, Toronto Polices are enthusiastic in decreasing the overall crime rate these year. For instance, areas that have implemented neighborhood watch programs and increased police visibility report enhanced public safety and community cohesion.
+
+Looking to the future, Toronto's commitment to safety encompasses not only addressing immediate concerns but also fostering long-term strategies. Urban planning initiatives that prioritize green spaces, improved lighting, and accessible public resources can significantly enhance crime prevention efforts. Furthermore, ongoing collaboration between law enforcement, community organizations, and residents is essential to adapt to evolving challenges. By emphasizing sustainable safety measures and empowering community participation, Toronto aims to create a safer environment that promotes resilience and well-being for all its residents. This holistic approach will not only mitigate crime but also cultivate a sense of community belonging and trust among citizens.
+
+\newpage
+
+# References
