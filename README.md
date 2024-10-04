@@ -16,8 +16,4 @@ The repo is structured as:
 
 ## Statement on LLM usage
 
-ChatGPT4o (4o-mini) was used as an LLM for this project. Debugging, formatting, and commenting were done using LLM. All chat history for the LLM usage can be found in the `inputs/llm/usage.txt` folder
-
-
-## To Professor: 
-I HAD WROTE THE WHOLE ESSAY. However, The Render keeps giving me error saying my latex version is too low so that I can't render the whole essay. I would try to fix it. However, i 've done the whole essay and did all other works. Please take a look! Thank you!!
+ChatGPT4o (4o-mini) was used as an LLM for this project. Debugging, formatting, and commenting were done using LLM. All chat history for the LLM usage can be found in the `inputs/llm/usage.txt` folder.
