@@ -2,7 +2,7 @@
 title: "A Decade of Crime in Toronto: Trends, Challenges and Responses (2014-2024)"
 author: 
   - Yanfei Huang
-thanks: "Code and data are available at: ."
+thanks: "Code and data are available at: https://github.com/wendyhuan/Crime_Toronto.git."
 date: September 24 2024
 date-format: long
 abstract: "This paper provides an overview of the crime reported in Toronto between years 2014 and 2024. Using data of reported crime collected by opendatatoronto, we analyze the crime type and crime target under different districts of Toronto between 2014 and 2024. Our finding reveals that the crime types shift around time, with a marked rise in property-related crimes within ten years. These insights can help shape a comprehensive understanding of crime dynamics in Toronto during the 2014-2024 period and contribute to discussions on improving public safety and crime prevention strategies."
@@ -32,7 +32,7 @@ analysis_data <- read.csv("../data/analysis_data/analysis_data.csv")
 
 # Introduction
 
-Toronto consistently ranks high in studies that examine the safety of cities. For instance, the Queen City was classified as the second safest city in the world in The Economist's Safe Cities Ranking 2021, with Copenhagen, Denmark, coming in first. With the index rating 60 of the world’s major cities using 76 safety-related indicators, such as infrastructure, personal security, health, and digital, Toronto came in seventh place worldwide in personal safety. Undoubtedly, the crime rate in general has dropped since 2000, with the 2023 crime rate reaching 25% lower than peak levels in 2003. We may conclude that Toronto has made significant advancements in prioritizing public safety as a primary objective.
+Toronto consistently ranks high in studies that examine the safety of cities. For instance, the Queen City was classified as the second safest city in the world in The Economist's Safe Cities Ranking 2021 [@EconomistImpact], with Copenhagen, Denmark, coming in first. With the index rating 60 of the world’s major cities using 76 safety-related indicators, such as infrastructure, personal security, health, and digital, Toronto came in seventh place worldwide in personal safety. Undoubtedly, the crime rate in general has dropped since 2000, with the 2023 crime rate reaching 25% lower than peak levels in 2003 [@Statista]. We may conclude that Toronto has made significant advancements in prioritizing public safety as a primary objective.
 
 However, despite these rankings and numbers, crime rates in Toronto are increasing in 2023, according to major crime indicators statistics tracked by the Toronto Police Service. This increase could be an attribution to a combination of factors related to the covid-19, as the pandemic significantly impacted Toronto's economy, which in turn influenced crime rates.
 
@@ -44,7 +44,7 @@ The paper is structured as followed: Section 2 discusses the data and methodolog
 
 # Data {#sec-data}
 
-The raw data was sourced from the City of Toronto's Open Data Portal using the `opendatatoronto` [@openDataToronto] package. One data sets was downloaded: **Police Annual Statistical Report - Reported Crimes** [@crimedata2024]. The data, provided in Excel and CSV formats, was cleaned and analyzed using R [@citeR] programming language. The `readxl` [@readxl] package was used for reading Excel files. Other R packages used include `tidyverse` [@tidyverse], `styler` [@styler], and `dplyr` [@dplyr] for creating tables. The `ggplot2` [@ggplot2] and `kableExtra` [@kableExtra] were used for data visualization and table formatting. The `patchwork` [@patchwork] package was used for combining multiple plots, and `sf` [@sf] for spatial data analysis.
+The raw data was sourced from the City of Toronto's Open Data Portal using the `opendatatoronto` [@opendatatoronto] package. One data sets was downloaded: **Police Annual Statistical Report - Reported Crimes** [@crimedata2024]. The data, provided in Excel and CSV formats, was cleaned and analyzed using R [@citeR] programming language. The `readxl` [@readxl] package was used for reading Excel files. Other R packages used include `tidyverse` [@tidyverse], `styler` [@styler], and `dplyr` [@dplyr] for creating tables. The `ggplot2` [@ggplot2] and `kableExtra` [@kableExtra] were used for data visualization and table formatting. The `patchwork` [@patchwork] package was used for combining multiple plots, and `sf` [@sf] for spatial data analysis.
 
 The data consists of reported crimes that was received by the Toronto Police Service. The year of the report for each of the 16 Toronto divisions given in the DIVISION variable is included in the variable REPORT_YEAR. The SUBTYPE variable identifies the particular crimes committed, whereas the CATEGORY variable mainly separates the reports into "Crimes Against Person" and "Crimes Against Property." The variables COUNT\_, which shows the total number of crime reports, and COUNT_CLEARED, which shows the number of reports that have been cleared, are also included in this dataset.
 
